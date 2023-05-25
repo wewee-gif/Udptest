@@ -41,6 +41,7 @@ public class AnalysisMessage {
                 System.out.println("站地址："+Integer.toHexString(buff[1]));
 
                 System.out.println("本条报文长度："+length);
+
                 //校验报文内容
                 for (int i=0;i<length-2;i++){
                     sum+=buff[i];
